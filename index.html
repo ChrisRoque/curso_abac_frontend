@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de validação</h1>
+        <h3>Regras de preenhechimento</h3>
+        <p>
+            <h5> (O segundo numero dever ser menor que o primeiro.) </h5>
+        </p>
+        <form id="valida-form">
+            <input type="number" id="numero-um" required placeholder="Digite o primeiro numero"/>
+            <input type="number" id="numero-dois" required placeholder="Digete o segundo numero"/>
+            <button type="submit" id="btn-submit" >Submeter</button>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
