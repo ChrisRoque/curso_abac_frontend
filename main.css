@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(178, 172, 165, 0.607);
+    padding: 16px 0px;
+    text-align: center;
+    font-size: 24px;
+}
+
+form{
+    text-align: center;
+    margin-top: 36px;
+}
+
+form input, button{
+    padding: 12px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+
+form button{
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor:pointer;
+}
+
+.conteiner{
+    height: 50px;
+    padding: 50px;
+    margin-left: 40%;
+    
+}
+
+ul li{
+    margin-bottom: 8px;
+    font-size: 24px; 
+    
+}
+
+.riscado{
+    text-decoration: line-through;
+}
